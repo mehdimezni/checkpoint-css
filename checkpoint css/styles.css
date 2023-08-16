@@ -1,0 +1,45 @@
+*{
+    margin:0;
+    font-family: 'Rubik', sans-serif;
+}
+header nav img{
+    width:25%;
+}
+ul{
+    display:flex;
+}
+li{
+    list-style:none;
+    margin-left: 3%;
+    font-weight: bold;
+}
+li:hover{
+    color:blue;
+}
+nav{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(91, 112, 133);
+    padding:2%;
+    box-shadow: 5px 10px #e6e3e3;
+}
+.logo{
+    width:35px;
+    display:flex;
+    justify-content: center;
+    margin: auto;
+}
+h1{
+    text-align: center;
+    font-weight: bold;
+    margin-top: 2%;
+}
+main div p{
+    width:35%;
+}
+.text-container{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 3%;
+}
